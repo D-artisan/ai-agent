@@ -1,6 +1,6 @@
 import os
 from env import load_env
-from pydantic import BaseModel, ValidationError
+from pydantic import BaseModel
 from litellm import completion
 from tools import search_tool, wiki_tool, save_tool
 
